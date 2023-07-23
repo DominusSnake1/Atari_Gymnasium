@@ -18,6 +18,8 @@ from stable_baselines3 import A2C
 
 
 def testGameWithRandomAgent(game, episodes):
+    print(f"Game starting: \"{game}\" for {episodes} Episodes!")
+
     env = gym.make(game, render_mode="human")
 
     for ep in range(1, episodes+1):
@@ -34,3 +36,4 @@ def testGameWithRandomAgent(game, episodes):
         print(f"Episode {ep}, Score: {score}")
 
     env.close()
+    print()
