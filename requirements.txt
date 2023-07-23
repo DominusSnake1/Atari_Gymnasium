@@ -1,0 +1,8 @@
+ gymnasium[atari, all]
+ gymnasium[box2d]
+ gymnasium[accept-rom-license, atari]
+ swig
+ pygame
+ autorom
+ shimmy[gym-v26]
+ stable-baselines3

@@ -1,2 +1,6 @@
+import Gymnasium.Utils as guti
+
 if __name__ == '__main__':
-    print("test")
+    # guti.testGameWithRandomAgent("CartPole-v1", 10)
+    guti.testGameWithRandomAgent("LunarLander-v2", 10)
+
